@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 1070px) {
+    .imgDiv{
+        display: none;
+    }
+    .main{
+        height: 65vh !important;
+        min-height: 65vh !important;
+    }
+  }
+
+.main {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+img {
+    height: 700px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.check a {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.check a:hover {
+    color: #3B5998;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.loginButton a {
+    color: blue;
+
+}
+
+.loginButton span {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.loginButton {
+    width: 100%;
+}
+
+
+button {
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+    background-color: #3f51b5;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+}
+
+button:hover {
+    background-color: #3B5998;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 25px;
+    max-height: 450px;
+
+    width: 450px;
+
+}
+
+.gap {
+    margin-top: 30px;
+}
+
+input {
+    padding: 12px;
+    width: 94%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input:focus-visible {
+    border: 1px solid grey !important;
+}
+
+.fa-facebook-square {
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.fa-linkedin-square {
+    background: #007bb5;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.social {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
